@@ -1,0 +1,393 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;700&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: #2c2e2f;
+    margin: 0px auto;
+    min-height: 100% ;
+    min-width: 100% ;
+}
+.navBar{
+    position:fixed;
+    top: -15px;
+    z-index: 1;
+    display: flex;
+    text-align:center;
+    align-items: baseline;
+    justify-content: space-between;
+    color: white;
+    background-color: black;
+    width: 100%;   
+}
+.pay{
+    color: #142c8e;
+}
+.pal{
+    color: #0070ba;;
+}
+
+.logo{
+    display: flex;
+    justify-content: baseline;
+    text-align: baseline;
+    align-items: baseline;
+    margin-left: 10px;
+    margin-top: 10px;
+    
+   
+}
+.logotxt{
+    font-style:italic;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 29px;
+    font-weight: 700;
+    line-height: 20px;
+    display: block;
+    padding: 10px;
+    height: 40px; 
+    line-height: 1;  
+}
+
+.leftNav{
+    display:inline-flex;
+    justify-content:space-around;
+    align-items: center;
+    color: white;
+    padding: 30px; 
+    
+}
+.mobilebtn{
+    background-color: rgba(71, 126, 236, 0.98);
+    padding: 10px;
+    font-size: 10px;
+    border-radius: 4px;
+    cursor:pointer;   
+}
+.pplogo{
+    background-image: url(img/paypalllogo.png);
+    background-repeat: no-repeat;
+    margin: 0px auto;
+    align-items: center;
+    background-size: contain;
+    background-size: 30px;
+    width: 30px;
+    height: 36px;
+    display: block;
+    z-index: 3;
+
+}
+.smallfont{
+    font-size: 12px;
+    font-weight: 400;
+    margin-right: 10px;    
+}
+
+.hero2img{
+    min-height: 80vh;
+    font-size: 14px;
+    background-size: cover;
+    background-position:center;
+    background-position-y: -10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-image:url(img/edit2-ketut-subiyanto-4474045.jpg);
+}
+
+.textwrapper{
+    z-index:5;
+    outline: white;
+    color: white;
+    line-height: .5em;
+    letter-spacing: 0.1px;
+    font-size: 35px;
+    font-weight: 200px;
+    line-height: 1.25em;
+    max-width: 700px;
+    text-align: center;
+    margin: 0px auto;
+}
+.whiteBody{
+    margin: 0px auto;
+    color: #2c2e2f;
+    text-align: center; 
+    max-height: 85vh;
+    .bodytext{
+        color: #2c2e2f;
+        margin: 0px auto;
+        padding: 2px;
+    }
+}
+.bluebody{
+    padding: 20px;
+    color: white;
+    text-align: center;
+    
+    .left{
+        text-align: left;
+    }
+    .bodytext{
+        color: white;
+        font-size: 12px;
+        font-weight: 200;
+        text-align: left;
+        line-height: 1.7em;
+        
+    }
+    .boxes{
+        display: flex;
+        padding: 20px;
+        align-items:flex-start;
+        justify-content: space-between;
+
+    }
+    .box1 {
+        text-align: left;
+        margin-right: 20px;
+        
+        
+    }
+    .box2{
+        text-align: left;
+        
+    }
+    
+    background-color: #009cde;
+    background-image: radial-gradient(circle farthest-side at center bottom,#009cde,#003087 0);
+
+}
+.box3{
+    text-align: left;
+    margin-left: 20px;
+}
+.smalltext{
+    font-size: 26px;
+    font-weight: 400;
+    color: #080808;
+}
+.bolder{
+    margin-top: -3px;
+    font-size: 15px;
+    font-weight: 300;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.button{
+    background-color: rgba(44,113,246,.98);
+    padding: 12px;
+    margin: 0px auto;
+    border-radius: 25px;
+    color: white;
+    font-weight: 400;
+    line-height: 2;
+    margin-top: -3px;
+    min-width: 300px;
+    border: 1px solid #0070ba;   
+}
+.button:hover{
+   
+    background-image: radial-gradient(circle farthest-side at center bottom,#009cde,#003087 0);
+    transition: ease-in-out;
+    transition: 200ms;
+}
+.whiteBtn{
+    margin-top: -3px;
+    background-color: white;
+    min-width: 200px;
+    border: 1px solid #0070ba;
+    color: #0070ba;
+}
+.whiteBtn:hover{
+    background-color: black;
+    border:1px solid white;
+    color: white;
+    transition: ease-in-out;
+}
+.whitesmoke{
+    text-align: center;
+    background-color: #f7f9fa;
+    color: #2c2e2f;
+}
+.bottomline{
+    margin-top: -26px;
+    max-width: 100px;
+   
+}
+.blackbody{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.blackbodywrap{
+    background-color: black;
+}
+.whitearrow {
+    height: 2vh;
+    padding: 2px;
+    margin-left: 5px;
+    margin-right: 2px;
+}
+.arrow{
+    margin: 0px auto;
+}
+.link{
+    color: white;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 1.5em;
+    text-decoration: none;
+}
+.link:hover{
+    text-decoration:underline;
+}
+.signUptext{
+    font-size: 30px;
+    font-weight: 400;
+    color: black;
+    letter-spacing: 0.9px;
+}
+.flink{
+    color:  rgb(110, 109, 109);
+}
+.footer{
+    padding: 20px;
+}
+.dot{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    border-bottom:0.10px dashed #767676;;
+}
+.footerbox1{
+    
+    ul{
+        display: flex;
+        align-items:center;
+        justify-content: space-between;
+        position: relative;
+        text-decoration: none;
+        list-style: none;
+        li{
+            margin-right: 20px;
+        }
+    }
+}
+.underdot{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    ul{
+        display: flex;
+        list-style: none;
+        align-items: stretch;
+        justify-content: space-between;
+    }
+}
+
+
+.bb{
+    border-right: 0.1px solid rgb(119, 118, 118);
+    
+}
+
+.bottomtext{
+    color:  rgb(119, 118, 118);
+    font-size: 10px;
+    font-weight: 700;
+}
+
+.foottext{
+    color: #0a0a0a;
+    padding: 2px;
+    font-weight: normal;
+    text-align: left;
+    margin-left: 20px;
+}
+
+@media only screen and (max-width:768px){
+    body{
+        min-width: 100%;
+    }
+    .logotxt{
+        display: none;
+    }
+    .navBar{
+        background-color: pink;
+        display: flex;
+        max-height: 60px;
+        justify-content: space-between;
+        position: static;
+        align-items: center;
+        
+    }
+    .move{
+        margin-left: 120px;
+    }
+    .leftNav{
+        display:block;
+        color: white;
+        padding: 30px; 
+        .hide{
+            display: none;
+        }
+        
+    }
+    
+    .blackbodywrap{
+        display: block;
+        .blackbody{
+            display: block;
+            flex-direction: column-reverse;
+            position: relative;
+            overflow: hidden;
+            max-width: 100%;
+        }
+
+    }
+    .hide{
+        display: none;
+    }
+    .boxes{
+        display: block;
+            flex-direction: column-reverse;
+            position: relative;
+            overflow: hidden;
+            max-width: 100%;
+    }
+    .wrappper{
+        padding: 0px 10px;
+    }
+    .hero2img{
+        display: "none";
+        min-height: 50vh;
+        display: flex;
+        padding: auto;
+        align-items: center;
+        justify-content: center;
+        background-position-y: auto;
+        .textwrapper{
+            line-height: .5em;
+            letter-spacing: 0.1px;
+            font-size: 15px;
+            font-weight: 200px;
+            line-height: 1.25em;
+            max-width: 700px;
+        }
+    }
+    .leftNav{
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+        .mobilebtn{
+            padding: auto;
+        }
+    }
+}
